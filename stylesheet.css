@@ -82,7 +82,6 @@ body{
 
 .kiji{
   width: 50%;
-  float: left;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -128,4 +127,17 @@ body{
 .tw{
   color: #bebb40;
   font-size: 32px;
+}
+
+
+@media (min-width: 768px) {
+
+  .main-bnr{
+  }
+
+  .kiji{
+    float: left;
+    box-sizing: border-box;
+  }
+
 }

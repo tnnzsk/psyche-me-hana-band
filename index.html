@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet2.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <title>タイトル未定</title>
 </head>
 <body>
   <div class="wrap">
-    <nav class="head-nav">
+    <div class="head-nav">
       <ul>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Live</a></li>
-        <li><a href="#">Music</a></li>
-        <dd class="nav-logo"><a href="#"><img src="./IMG/Logo.jpg" alt="" class="logo"></a></dd>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Discograghy</a></li>
-        <li><a href="#">Contacts</a></li>
+       <li><a href="#" class="list-group-item">News</a></li>
+       <li><a href="#" class="list-group-item">Live</a></li>
+       <li><a href="#" class="list-group-item">Music</a></li>
+       <dd class="nav-logo"><a href="#"><img src="./IMG/Logo.jpg" alt="" class="logo list-group-item active"></a></dd>
+       <li><a href="#" class="list-group-item">Profile</a></li>
+       <li><a href="#" class="list-group-item">Discograghy</a></li>
+       <li><a href="#" class="list-group-item">Contacts</a></li>
       </ul>
-    </nav>
+    </div>
+
     <article class="main">
       <img src="IMG/main.jpg" alt="" class="main-bnr">
 
@@ -73,8 +74,8 @@
       </div>
       <div class="kiji">
         <h2>Profile</h2>
-        <p>
-          vo&gt アンジ <a href="https://twitter.com/ajxjxj1103" class="pf-tw">@ajxjxj1103</a><br />
+        <p class="profile-text">
+          vo＆gt アンジ <a href="https://twitter.com/ajxjxj1103" class="pf-tw">@ajxjxj1103</a><br />
           ba ムタ <a href="https://twitter.com/muta_1234" class="pf-tw">@muta_1234</a><br />
           dr トモ <a href="https://twitter.com/tomojiroman" class="pf-tw">@tomojiroman</a><br />
         </p>
@@ -84,35 +85,44 @@
 
       <div class="kiji">
           <h2>Discograghy</h2>
-          <p>
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-          </p>
+          <!-- 記事頭 -->
+            <div class="Disc-kiji">
+              <div class="Disc-text">
+                <p>2018年6月27日</p>
+                <p>TRACE</p>
+                <p>¥0,000</p>
+              </div>
+                <img src="./IMG/Logo.jpg" alt="">
+              </div>
+          <!-- 記事尻 -->
+          <!-- 記事頭 -->
+            <div class="Disc-kiji">
+              <div class="Disc-text">
+                <p>2018年6月27日</p>
+                <p>TRACE</p>
+                <p>¥0,000</p>
+              </div>
+                <img src="./IMG/Logo.jpg" alt="">
+              </div>
+          <!-- 記事尻 -->
+
         </div>
 
         <div class="kiji">
           <h2>Contacts</h2>
           <p>
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
-            ダミーテキストダミーテキストダミーテキストダミーテキスト
+            <p>Follow Me!!!</p>
+            <div class="tw">
+              <a href="https://twitter.com/psyche_me_hana?lang=ja" class="tw">
+            <i class="fab fa-twitter"></i>Follow Twitter!!!
+              </a>
+            <div>
           </p>
         </div>
 
 <div class="cf"></div>
     </article>
     <footer class="foot">
-      <p>Follow Me!!!</p>
-      <div class="tw">
-        <a href="https://twitter.com/psyche_me_hana?lang=ja" class="tw">
-      <i class="fab fa-twitter"></i>Follow Twitter!!!
-        </a>
-      <div>
     </footer>
   </div>
 </body>
