@@ -110,10 +110,15 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: center;
   box-sizing: border-box;
 	color: #ffed00;
+	font-family: serif;
+}
+
+.head-nav li a:hover{
+	color: #ffed00;
+	border-bottom: 3px solid #508a31;
 }
 
 .head-nav li:hover{
-	background: #508a31;
 }
 
 .nav-logo{
@@ -133,6 +138,7 @@ h1, h2, h3, h4, h5, h6, p{
   border-bottom: 3px solid #ffed00;
   padding: 24px 24px 24px 24px;
   margin-bottom: 18px;
+	font-family: serif;
 }
 
 .news-kiji{
