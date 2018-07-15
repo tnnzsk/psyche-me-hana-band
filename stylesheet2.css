@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, p{
 .head-nav li{
   float: left;
   width: calc(100% / 7);
-  padding: 25px 0 25px 0;
+  padding: 15px 5px 15px 5px;
   text-align: center;
   box-sizing: border-box;
 }
