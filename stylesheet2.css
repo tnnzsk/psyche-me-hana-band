@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p{
   color: #ffffff;
 }
 
-.{
+.gh{
   font-family: sans-serif;
 }
 
@@ -149,25 +149,69 @@ h1, h2, h3, h4, h5, h6, p{
 
 .news-kiji img{
   margin: 18px 0;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .live-kiji{
-  width: 50%;
-  float: left;
   padding: 0 18px;
+  margin-bottom: 50px;
   box-sizing: border-box;
 }
 
 .live-kiji img{
   margin: 18px 0;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.live-kiji p{
+    margin-bottom: 16px;
+}
+
+.date{
+  color: #af2f2f;
+  margin-bottom: 16px;
+}
+
+.btn a{
+  width: 100%;
+  display: block;
+  background-color: #508a31;
+  border-radius: 5px;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.btn a:hover{
+  background-color: #2f531d;
+}
+
+.pf-name{
+  margin-bottom: 10px;
 }
 
 .profile-text{
   margin-left: 18px;
+}
+
+.profile-text p{
+  float: left;
+  padding: 5px 0;
+  margin-right: 8px;
+}
+
+.pf-tw{
+  display: block;
+  background-color: #508a31;
+  border-radius: 5px;
+  text-align: center;
+  float: left;
+  padding: 5px 5px;
+}
+
+.pf-tw:hover{
+  background-color: #2f531d;
 }
 
 .Disc-kiji{
@@ -179,6 +223,6 @@ h1, h2, h3, h4, h5, h6, p{
 
 .Disc-kiji img{
   margin: 18px 0;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
