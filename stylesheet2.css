@@ -192,6 +192,16 @@ h1, h2, h3, h4, h5, h6, p{
   margin-bottom: 10px;
 }
 
+.link{
+  border-bottom: 3px solid #508a31;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+.link:hover{
+  border-bottom: 3px solid #2f531d;
+}
+
 .profile-text{
   margin-left: 18px;
 }
@@ -228,6 +238,19 @@ h1, h2, h3, h4, h5, h6, p{
   height: 100px;
 }
 
+/*  MUSIC.html*/
+
+.music-title{
+  font-size: 24px;
+  margin: 15px 0;
+  color:
+}
+
+
+
+
+
+
 @media (max-width: 1069px) {
 	.head-nav li{
 		padding: 20px 0 20px 0;
@@ -238,6 +261,12 @@ h1, h2, h3, h4, h5, h6, p{
 		width: 50px;
 		height: 50px;
 	}
+  .music-yt{
+    width: 100%;
+    height: 100%;
+  }
+
+
 }
 
 @media (min-width: 1070px){
@@ -257,7 +286,13 @@ h1, h2, h3, h4, h5, h6, p{
 	}
 
 	.live-kiji{
-		float: left;
 		width: 50%;
 	}
+
+  .music-yt{
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+
 }
