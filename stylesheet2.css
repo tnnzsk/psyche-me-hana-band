@@ -156,9 +156,6 @@ h1, h2, h3, h4, h5, h6, p{
   display: block;
 }
 
-.news-link{
-}
-
 .live-kiji{
   padding: 0 18px;
   box-sizing: border-box;
@@ -278,7 +275,7 @@ h1, h2, h3, h4, h5, h6, p{
   }
 
   .news-link{
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .music-yt{
