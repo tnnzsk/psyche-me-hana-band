@@ -122,9 +122,6 @@ h1, h2, h3, h4, h5, h6, p{
 	border-bottom: 3px solid #508a31;
 }
 
-.head-nav li:hover{
-}
-
 .nav-logo{
   float: left;
   width: calc(100% / 7);
@@ -147,15 +144,14 @@ h1, h2, h3, h4, h5, h6, p{
 
 .news-kiji{
   width: 50%;
+  height: 220px;
   float: left;
   padding: 0 18px;
   box-sizing: border-box;
 }
 
-.news-kiji img{
+.kiji img{
   margin: 18px 0;
-  width: 100px;
-  height: 100px;
 }
 
 .news-link{
@@ -165,12 +161,6 @@ h1, h2, h3, h4, h5, h6, p{
 .live-kiji{
   padding: 0 18px;
   box-sizing: border-box;
-}
-
-.live-kiji img{
-  margin: 18px 0;
-  width: 100px;
-  height: 100px;
 }
 
 .live-kiji p{
@@ -280,6 +270,16 @@ h1, h2, h3, h4, h5, h6, p{
 		width: 50px;
 		height: 50px;
 	}
+
+  .kiji img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .news-link{
+    font-size: 18px;
+  }
+
   .music-yt{
     width: 100%;
     height: 100%;
@@ -307,6 +307,15 @@ h1, h2, h3, h4, h5, h6, p{
 	.live-kiji{
 		width: 50%;
 	}
+
+  .kiji img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .news-link{
+    font-size: 24px;
+  }
 
   .music-yt{
     float: left;
